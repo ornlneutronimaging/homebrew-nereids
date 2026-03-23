@@ -1,7 +1,7 @@
 # Canonical cask — version and sha256 are updated automatically by CI
 # (publish.yml update-homebrew job) on each release.
 cask "nereids" do
-  version "0.1.5"
+  version "0.1.6"
   sha256 :no_check
 
   url "https://github.com/ornlneutronimaging/NEREIDS/releases/download/v#{version}/nereids-#{version}-macos-arm64.dmg"
